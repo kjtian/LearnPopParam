@@ -1,0 +1,68 @@
+
+Record#  FIELD_NAME FIELD_TYPE FIELD_LEN FIELD_DEC FIELD_DESC                                                                         FIELD_SEQ TF1 YRF
+      1  gl         C                  1         0 Geographic Level (A-Nation, B-State, C-County)                                             1 Y      
+      2  st         N                  2         0 FIPS State Code                                                                            2 Y      
+      3  cy         N                  3         0 FIPS County Code                                                                           3 Y      
+      4  cykey      C                  5         0 Polidata County Match Key (ST+CY, zero-filled)                                             4 Y      
+      5  sta        C                  2         0 State Postal Abbreviation                                                                  5 Y      
+      6  cyabb      C                  5         0 Polidata County Abbreviation (usually beg. of county name)                                 6 Y      
+      7  cname      C                 24         0 County Name                                                                                7 Y      
+      8  g92p_year  N                  4         0 Section Delimiter                                                                         10 Y     1
+      9  g92p_dv    N                  9         0 1992 President-Votes for Democrat (Clinton)                                               11 Y     1
+     10  g92p_rv    N                  9         0 1992 President-Votes for Republican (Bush)                                                12 Y     1
+     11  g92p_i1v   N                  9         0 1992 President-Votes for Independent 1 (Perot)                                            13 Y     1
+     12  g92p_i2v   N                  9         0 1992 President-Votes for Independent 2 (n/a)                                              14 Y     1
+     13  g92p_sv    N                  9         0 1992 President-Votes for Remainder/Scattering (may be blank)                              15 Y     1
+     14  g92p_tv    N                  9         0 1992 President-Votes for All (Total)                                                      16 Y     1
+     15  g92p_dp    N                  5         1 1992 President-Percentage for Democrat (Clinton)                                          21 Y     1
+     16  g92p_rp    N                  5         1 1992 President-Percentage for Republican (Bush)                                           22 Y     1
+     17  g92p_i1p   N                  5         1 1992 President-Percentage for Independent 1 (Perot)                                       23 Y     1
+     18  g92p_i2p   N                  5         1 1992 President-Percentage for Independent 2 (n/a)                                         24 Y     1
+     19  g92p_sp    N                  5         1 1992 President-Percentage for Remainder/Scattering (may be blank)                         25 Y     1
+     20  g92p_wf    C                  1         0 1992 President-Winner (majority in uppercase)                                             31 Y     1
+     21  g92p_pv    N                  9         0 1992 President-Margin/Plurality in Votes                                                  32 Y     1
+     22  g92p_pp    N                  5         1 1992 President-Margin/Plurality in Percentage Points                                      33 Y     1
+     23  g92p_ov    N                  9         0 1992 President-Combined Votes for Others (Ind+Scattering)                                 37 Y     1
+     24  g92p_op    N                  5         1 1992 President-Combined Percentage for Others (Ind+Scattering)                            38 Y     1
+     25  g92p_m1v   N                  9         0 1992 President-Detailed Votes for Minor A (n/a)                                           41 Y     1
+     26  g92p_m2v   N                  9         0 1992 President-Detailed Votes for Minor B (n/a)                                           42 Y     1
+     27  g92p_m3v   N                  9         0 1992 President-Detailed Votes for Minor C (n/a)                                           43 Y     1
+     28  g92p_m4v   N                  9         0 1992 President-Detailed Votes for Minor D (n/a)                                           44 Y     1
+     29  g92p_m5v   N                  9         0 1992 President-Detailed Votes for Minor E (n/a)                                           45 Y     1
+     30  g96p_year  N                  4         0 Section Delimiter                                                                         50 Y     2
+     31  g96p_dv    N                  9         0 1996 President-Votes for Democrat (Clinton)                                               51 Y     2
+     32  g96p_rv    N                  9         0 1996 President-Votes for Republican (Dole)                                                52 Y     2
+     33  g96p_i1v   N                  9         0 1996 President-Votes for Independent 1 (Perot)                                            53 Y     2
+     34  g96p_i2v   N                  9         0 1996 President-Votes for Independent 2 (n/a)                                              54 Y     2
+     35  g96p_sv    N                  9         0 1996 President-Votes for Remainder/Scattering (may be blank)                              55 Y     2
+     36  g96p_tv    N                  9         0 1996 President-Votes for All (Total)                                                      56 Y     2
+     37  g96p_dp    N                  5         1 1996 President-Percentage for Democrat (Clinton)                                          61 Y     2
+     38  g96p_rp    N                  5         1 1996 President-Percentage for Republican (Dole)                                           62 Y     2
+     39  g96p_i1p   N                  5         1 1996 President-Percentage for Independent 1 (Perot)                                       63 Y     2
+     40  g96p_i2p   N                  5         1 1996 President-Percentage for Independent 2 (n/a)                                         64 Y     2
+     41  g96p_sp    N                  5         1 1996 President-Percentage for Remainder/Scattering (may be blank)                         65 Y     2
+     42  g96p_wf    C                  1         0 1996 President-Winner (majority in uppercase)                                             71 Y     2
+     43  g96p_pv    N                  9         0 1996 President-Margin/Plurality in Votes                                                  72 Y     2
+     44  g96p_pp    N                  5         1 1996 President-Margin/Plurality in Percentage Points                                      73 Y     2
+     45  g96p_ov    N                  9         0 1996 President-Combined Votes for Others (Ind+Scattering)                                 77 Y     2
+     46  g96p_op    N                  5         1 1996 President-Combined Percentage for Others (Ind+Scattering)                            78 Y     2
+     47  g96p_m1v   N                  9         0 1996 President-Detailed Votes for Minor A (Browne)                                        81 Y     2
+     48  g96p_m2v   N                  9         0 1996 President-Detailed Votes for Minor B (Hagelin)                                       82 Y     2
+     49  g96p_m3v   N                  9         0 1996 President-Detailed Votes for Minor C (Nader)                                         83 Y     2
+     50  g96p_m4v   N                  9         0 1996 President-Detailed Votes for Minor D (Phillips)                                      84 Y     2
+     51  g96p_m5v   N                  9         0 1996 President-Detailed Votes for Minor E (n/a)                                           85 Y     2
+     52  pop_fields C                  1         0 Section Delimiter                                                                        100 Y      
+     53  pop_1992   N                  9         0 1992 POP Estimate                                                                        101 Y      
+     54  vap_1992   N                  9         0 1992 VAP Estimate                                                                        102 Y      
+     55  pop_1996   N                  9         0 1996 POP Estimate                                                                        103 Y      
+     56  vap_1996   N                  9         0 1996 VAP Estimate                                                                        104 Y      
+     57  popm_1992  C                  1         0 Method used for 1992 POP (Census, Annual estimate, Interpolation)                        105 Y      
+     58  vapm_1992  C                  1         0 Method used for 1992 VAP (Census, Annual estimate, Interpolation)                        106 Y      
+     59  popm_1996  C                  1         0 Method used for 1996 POP (Census, Annual estimate, Interpolation)                        107 Y      
+     60  vapm_1996  C                  1         0 Method used for 1996 VAP (Census, Annual estimate, Interpolation)                        108 Y      
+     61  g92p_tapv  N                  5         1 1992 President-Estimated Turnout as % of VAP Estimate                                    111 Y      
+     62  g96p_tapv  N                  5         1 1996 President-Estimated Turnout as % of VAP Estimate                                    112 Y      
+     63  g92p_tapp  N                  5         1 1992 President-Estimated Turnout as % of POP Estimate                                    113 Y      
+     64  g96p_tapp  N                  5         1 1996 President-Estimated Turnout as % of POP Estimate                                    114 Y      
+     65  ff         C                  1         0 Footnote Flag                                                                            198 Y      
+     66  version    C                  5         0 Dataset Version Control                                                                  199 Y      

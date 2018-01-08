@@ -1,0 +1,68 @@
+
+Record#  FIELD_NAME FIELD_TYPE FIELD_LEN FIELD_DEC FIELD_DESC                                                                         FIELD_SEQ TF1 YRF
+      1  gl         C                  1         0 Geographic Level (A-Nation, B-State, C-County)                                             1 Y      
+      2  st         N                  2         0 FIPS State Code                                                                            2 Y      
+      3  cy         N                  3         0 FIPS County Code                                                                           3 Y      
+      4  cykey      C                  5         0 Polidata County Match Key (ST+CY, zero-filled)                                             4 Y      
+      5  sta        C                  2         0 State Postal Abbreviation                                                                  5 Y      
+      6  cyabb      C                  5         0 Polidata County Abbreviation (usually beg. of county name)                                 6 Y      
+      7  cname      C                 24         0 County Name                                                                                7 Y      
+      8  g00p_year  N                  4         0 Section Delimiter                                                                         10 Y     1
+      9  g00p_dv    N                  9         0 2000 President-Votes for Democrat (Gore)                                                  11 Y     1
+     10  g00p_rv    N                  9         0 2000 President-Votes for Republican (Bush)                                                12 Y     1
+     11  g00p_i1v   N                  9         0 2000 President-Votes for Independent 1 (n/a)                                              13 Y     1
+     12  g00p_i2v   N                  9         0 2000 President-Votes for Independent 2 (n/a)                                              14 Y     1
+     13  g00p_sv    N                  9         0 2000 President-Votes for Remainder/Scattering (may be blank)                              15 Y     1
+     14  g00p_tv    N                  9         0 2000 President-Votes for All (Total)                                                      16 Y     1
+     15  g00p_dp    N                  5         1 2000 President-Percentage for Democrat (Gore)                                             21 Y     1
+     16  g00p_rp    N                  5         1 2000 President-Percentage for Republican (Bush)                                           22 Y     1
+     17  g00p_i1p   N                  5         1 2000 President-Percentage for Independent 1 (n/a)                                         23 Y     1
+     18  g00p_i2p   N                  5         1 2000 President-Percentage for Independent 2 (n/a)                                         24 Y     1
+     19  g00p_sp    N                  5         1 2000 President-Percentage for Remainder/Scattering (may be blank)                         25 Y     1
+     20  g00p_wf    C                  1         0 2000 President-Winner (majority in uppercase)                                             31 Y     1
+     21  g00p_pv    N                  9         0 2000 President-Margin/Plurality in Votes                                                  32 Y     1
+     22  g00p_pp    N                  5         1 2000 President-Margin/Plurality in Percentage Points                                      33 Y     1
+     23  g00p_ov    N                  9         0 2000 President-Combined Votes for Others (Ind+Scattering)                                 37 Y     1
+     24  g00p_op    N                  5         1 2000 President-Combined Percentage for Others (Ind+Scattering)                            38 Y     1
+     25  g00p_m1v   N                  9         0 2000 President-Detailed Votes for Minor A (Buchanan)                                      41 Y     1
+     26  g00p_m2v   N                  9         0 2000 President-Detailed Votes for Minor B (Nader)                                         42 Y     1
+     27  g00p_m3v   N                  9         0 2000 President-Detailed Votes for Minor C (Browne)                                        43 Y     1
+     28  g00p_m4v   N                  9         0 2000 President-Detailed Votes for Minor D (Hagelin)                                       44 Y     1
+     29  g00p_m5v   N                  9         0 2000 President-Detailed Votes for Minor E (Phillips)                                      45 Y     1
+     30  g04p_year  N                  4         0 Section Delimiter                                                                         50 Y     2
+     31  g04p_dv    N                  9         0 2004 President-Votes for Democrat (Kerry)                                                 51 Y     2
+     32  g04p_rv    N                  9         0 2004 President-Votes for Republican (Bush)                                                52 Y     2
+     33  g04p_i1v   N                  9         0 2004 President-Votes for Independent 1 (n/a)                                              53 Y     2
+     34  g04p_i2v   N                  9         0 2004 President-Votes for Independent 2 (n/a)                                              54 Y     2
+     35  g04p_sv    N                  9         0 2004 President-Votes for Remainder/Scattering (may be blank)                              55 Y     2
+     36  g04p_tv    N                  9         0 2004 President-Votes for All (Total)                                                      56 Y     2
+     37  g04p_dp    N                  5         1 2004 President-Percentage for Democrat (Kerry)                                            61 Y     2
+     38  g04p_rp    N                  5         1 2004 President-Percentage for Republican (Bush)                                           62 Y     2
+     39  g04p_i1p   N                  5         1 2004 President-Percentage for Independent 1 (n/a)                                         63 Y     2
+     40  g04p_i2p   N                  5         1 2004 President-Percentage for Independent 2 (n/a)                                         64 Y     2
+     41  g04p_sp    N                  5         1 2004 President-Percentage for Remainder/Scattering (may be blank)                         65 Y     2
+     42  g04p_wf    C                  1         0 2004 President-Winner (majority in uppercase)                                             71 Y     2
+     43  g04p_pv    N                  9         0 2004 President-Margin/Plurality in Votes                                                  72 Y     2
+     44  g04p_pp    N                  5         1 2004 President-Margin/Plurality in Percentage Points                                      73 Y     2
+     45  g04p_ov    N                  9         0 2004 President-Combined Votes for Others (Ind+Scattering)                                 77 Y     2
+     46  g04p_op    N                  5         1 2004 President-Combined Percentage for Others (Ind+Scattering)                            78 Y     2
+     47  g04p_m1v   N                  9         0 2004 President-Detailed Votes for Minor A (Nader)                                         81 Y     2
+     48  g04p_m2v   N                  9         0 2004 President-Detailed Votes for Minor B (Badnarik)                                      82 Y     2
+     49  g04p_m3v   N                  9         0 2004 President-Detailed Votes for Minor C (Peroutka)                                      83 Y     2
+     50  g04p_m4v   N                  9         0 2004 President-Detailed Votes for Minor D (Cobb)                                          84 Y     2
+     51  g04p_m5v   N                  9         0 2004 President-Detailed Votes for Minor E (n/a)                                           85 Y     2
+     52  pop_fields C                  1         0 Section Delimiter                                                                        100 Y      
+     53  pop_2000   N                  9         0 2000 POP Estimate                                                                        101 Y      
+     54  vap_2000   N                  9         0 2000 VAP Estimate                                                                        102 Y      
+     55  pop_2004   N                  9         0 2004 POP Estimate                                                                        103 Y      
+     56  vap_2004   N                  9         0 2004 VAP Estimate                                                                        104 Y      
+     57  popm_2000  C                  1         0 Method used for 2000 POP (Census, Annual estimate, Interpolation)                        105 Y      
+     58  vapm_2000  C                  1         0 Method used for 2000 VAP (Census, Annual estimate, Interpolation)                        106 Y      
+     59  popm_2004  C                  1         0 Method used for 2004 POP (Census, Annual estimate, Interpolation)                        107 Y      
+     60  vapm_2004  C                  1         0 Method used for 2004 VAP (Census, Annual estimate, Interpolation)                        108 Y      
+     61  g00p_tapv  N                  5         1 2000 President-Estimated Turnout as % of VAP Estimate                                    111 Y      
+     62  g04p_tapv  N                  5         1 2004 President-Estimated Turnout as % of VAP Estimate                                    112 Y      
+     63  g00p_tapp  N                  5         1 2000 President-Estimated Turnout as % of POP Estimate                                    113 Y      
+     64  g04p_tapp  N                  5         1 2004 President-Estimated Turnout as % of POP Estimate                                    114 Y      
+     65  ff         C                  1         0 Footnote Flag                                                                            198 Y      
+     66  version    C                  5         0 Dataset Version Control                                                                  199 Y      

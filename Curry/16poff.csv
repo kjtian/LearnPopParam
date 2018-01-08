@@ -1,0 +1,26 @@
+Rk,G,Date,Age,Tm,,Opp,,GS,MP,FG,FGA,FG%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,GmSc,+/-
+1,1,2016-04-16,28-033,GSW,,HOU,W (+26),1,19:49,8,13,.615,5,7,.714,3,3,1.000,1,6,7,2,3,0,4,0,24,21.0,+28
+2,,2016-04-18,28-035,GSW,,HOU,W (+9),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive
+3,,2016-04-21,28-038,GSW,@,HOU,L (-1),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive
+4,2,2016-04-24,28-041,GSW,@,HOU,W (+27),1,18:35,2,9,.222,1,7,.143,1,1,1.000,0,0,0,5,1,0,5,0,6,0.0,0
+5,,2016-04-27,28-044,GSW,,HOU,W (+33),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive
+6,,2016-05-01,28-048,GSW,,POR,W (+12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive
+7,,2016-05-03,28-050,GSW,,POR,W (+11),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive
+8,,2016-05-07,28-054,GSW,@,POR,L (-12),Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive,Inactive
+9,3,2016-05-09,28-056,GSW,@,POR,W (+7),0,36:34,16,32,.500,5,16,.313,3,3,1.000,1,8,9,8,0,0,4,2,40,27.9,+21
+10,4,2016-05-11,28-058,GSW,,POR,W (+4),1,36:30,10,20,.500,5,11,.455,4,4,1.000,0,5,5,11,1,0,4,2,29,24.4,+10
+11,5,2016-05-16,28-063,GSW,,OKC,L (-6),1,39:40,9,22,.409,6,14,.429,2,2,1.000,1,9,10,7,3,0,7,3,26,17.3,-6
+12,6,2016-05-18,28-065,GSW,,OKC,W (+27),1,29:40,9,15,.600,5,8,.625,5,5,1.000,0,2,2,3,1,0,3,0,28,21.8,+24
+13,7,2016-05-22,28-069,GSW,@,OKC,L (-28),1,29:44,7,17,.412,3,11,.273,7,8,.875,0,5,5,3,2,0,1,1,24,18.7,-39
+14,8,2016-05-24,28-071,GSW,@,OKC,L (-24),1,39:00,6,20,.300,2,10,.200,5,7,.714,0,5,5,5,2,0,6,2,19,6.8,-19
+15,9,2016-05-26,28-073,GSW,,OKC,W (+9),1,37:27,9,20,.450,3,8,.375,10,10,1.000,0,7,7,6,5,0,5,0,31,26.9,+6
+16,10,2016-05-28,28-075,GSW,@,OKC,W (+7),1,41:01,9,22,.409,6,14,.429,7,9,.778,2,8,10,9,2,0,3,3,31,26.3,+12
+17,11,2016-05-30,28-077,GSW,,OKC,W (+8),1,40:24,13,24,.542,7,12,.583,3,3,1.000,1,4,5,8,0,0,3,1,36,28.5,+18
+18,12,2016-06-02,28-080,GSW,,CLE,W (+15),1,35:54,4,15,.267,3,8,.375,0,0,,1,4,5,6,0,0,5,2,11,2.4,-1
+19,13,2016-06-05,28-083,GSW,,CLE,W (+33),1,24:43,7,11,.636,4,8,.500,0,0,,1,8,9,4,0,1,4,4,18,14.1,+25
+20,14,2016-06-08,28-086,GSW,@,CLE,L (-30),1,30:59,6,13,.462,3,9,.333,4,4,1.000,1,0,1,3,2,0,6,4,19,9.5,-22
+21,15,2016-06-10,28-088,GSW,@,CLE,W (+11),1,39:39,11,25,.440,7,13,.538,9,10,.900,3,2,5,6,2,0,3,3,38,29.2,+10
+22,16,2016-06-13,28-091,GSW,,CLE,L (-15),1,40:07,8,21,.381,5,15,.333,4,4,1.000,2,5,7,4,0,3,4,2,25,16.5,-6
+23,17,2016-06-16,28-094,GSW,@,CLE,L (-14),1,35:14,8,20,.400,6,13,.462,8,9,.889,0,2,2,1,1,0,4,6,30,14.7,-10
+24,18,2016-06-19,28-097,GSW,,CLE,L (-4),1,39:16,6,19,.316,4,14,.286,1,1,1.000,0,5,5,2,1,1,4,4,17,5.1,-3
+

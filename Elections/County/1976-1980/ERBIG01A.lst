@@ -1,0 +1,73 @@
+
+Structure for table:          D:\POLIDISK\ERB7680.DBF
+Number of data records:       3164    
+Date of last update:          07/01/09
+Code Page:                    1252    
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  GL              Character               1                             No
+    2  ST              Numeric                 2                             No
+    3  CY              Numeric                 3                             No
+    4  CYKEY           Character               5            Asc   Machine    No
+    5  STA             Character               2                             No
+    6  CYABB           Character               5                             No
+    7  CNAME           Character              24                             No
+    8  G76P_YEAR       Numeric                 4                             No
+    9  G76P_DV         Numeric                 9                             No
+   10  G76P_RV         Numeric                 9                             No
+   11  G76P_I1V        Numeric                 9                             No
+   12  G76P_I2V        Numeric                 9                             No
+   13  G76P_SV         Numeric                 9                             No
+   14  G76P_TV         Numeric                 9                             No
+   15  G76P_DP         Numeric                 5      1                      No
+   16  G76P_RP         Numeric                 5      1                      No
+   17  G76P_I1P        Numeric                 5      1                      No
+   18  G76P_I2P        Numeric                 5      1                      No
+   19  G76P_SP         Numeric                 5      1                      No
+   20  G76P_WF         Character               1                             No
+   21  G76P_PV         Numeric                 9                             No
+   22  G76P_PP         Numeric                 5      1                      No
+   23  G76P_OV         Numeric                 9                             No
+   24  G76P_OP         Numeric                 5      1                      No
+   25  G76P_M1V        Numeric                 9                             No
+   26  G76P_M2V        Numeric                 9                             No
+   27  G76P_M3V        Numeric                 9                             No
+   28  G76P_M4V        Numeric                 9                             No
+   29  G76P_M5V        Numeric                 9                             No
+   30  G80P_YEAR       Numeric                 4                             No
+   31  G80P_DV         Numeric                 9                             No
+   32  G80P_RV         Numeric                 9                             No
+   33  G80P_I1V        Numeric                 9                             No
+   34  G80P_I2V        Numeric                 9                             No
+   35  G80P_SV         Numeric                 9                             No
+   36  G80P_TV         Numeric                 9                             No
+   37  G80P_DP         Numeric                 5      1                      No
+   38  G80P_RP         Numeric                 5      1                      No
+   39  G80P_I1P        Numeric                 5      1                      No
+   40  G80P_I2P        Numeric                 5      1                      No
+   41  G80P_SP         Numeric                 5      1                      No
+   42  G80P_WF         Character               1                             No
+   43  G80P_PV         Numeric                 9                             No
+   44  G80P_PP         Numeric                 5      1                      No
+   45  G80P_OV         Numeric                 9                             No
+   46  G80P_OP         Numeric                 5      1                      No
+   47  G80P_M1V        Numeric                 9                             No
+   48  G80P_M2V        Numeric                 9                             No
+   49  G80P_M3V        Numeric                 9                             No
+   50  G80P_M4V        Numeric                 9                             No
+   51  G80P_M5V        Numeric                 9                             No
+   52  POP_FIELDS      Character               1                             No
+   53  POP_1976        Numeric                 9                             No
+   54  VAP_1976        Numeric                 9                             No
+   55  POP_1980        Numeric                 9                             No
+   56  VAP_1980        Numeric                 9                             No
+   57  POPM_1976       Character               1                             No
+   58  VAPM_1976       Character               1                             No
+   59  POPM_1980       Character               1                             No
+   60  VAPM_1980       Character               1                             No
+   61  G76P_TAPV       Numeric                 5      1                      No
+   62  G80P_TAPV       Numeric                 5      1                      No
+   63  G76P_TAPP       Numeric                 5      1                      No
+   64  G80P_TAPP       Numeric                 5      1                      No
+   65  FF              Character               1                             No
+   66  VERSION         Character               5                             No
+** Total **                                  424

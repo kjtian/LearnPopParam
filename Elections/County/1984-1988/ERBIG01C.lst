@@ -1,0 +1,73 @@
+
+Structure for table:          D:\POLIDISK\ERB8488.DBF
+Number of data records:       3166    
+Date of last update:          07/01/09
+Code Page:                    1252    
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  GL              Character               1                             No
+    2  ST              Numeric                 2                             No
+    3  CY              Numeric                 3                             No
+    4  CYKEY           Character               5            Asc   Machine    No
+    5  STA             Character               2                             No
+    6  CYABB           Character               5                             No
+    7  CNAME           Character              24                             No
+    8  G84P_YEAR       Numeric                 4                             No
+    9  G84P_DV         Numeric                 9                             No
+   10  G84P_RV         Numeric                 9                             No
+   11  G84P_I1V        Numeric                 9                             No
+   12  G84P_I2V        Numeric                 9                             No
+   13  G84P_SV         Numeric                 9                             No
+   14  G84P_TV         Numeric                 9                             No
+   15  G84P_DP         Numeric                 5      1                      No
+   16  G84P_RP         Numeric                 5      1                      No
+   17  G84P_I1P        Numeric                 5      1                      No
+   18  G84P_I2P        Numeric                 5      1                      No
+   19  G84P_SP         Numeric                 5      1                      No
+   20  G84P_WF         Character               1                             No
+   21  G84P_PV         Numeric                 9                             No
+   22  G84P_PP         Numeric                 5      1                      No
+   23  G84P_OV         Numeric                 9                             No
+   24  G84P_OP         Numeric                 5      1                      No
+   25  G84P_M1V        Numeric                 9                             No
+   26  G84P_M2V        Numeric                 9                             No
+   27  G84P_M3V        Numeric                 9                             No
+   28  G84P_M4V        Numeric                 9                             No
+   29  G84P_M5V        Numeric                 9                             No
+   30  G88P_YEAR       Numeric                 4                             No
+   31  G88P_DV         Numeric                 9                             No
+   32  G88P_RV         Numeric                 9                             No
+   33  G88P_I1V        Numeric                 9                             No
+   34  G88P_I2V        Numeric                 9                             No
+   35  G88P_SV         Numeric                 9                             No
+   36  G88P_TV         Numeric                 9                             No
+   37  G88P_DP         Numeric                 5      1                      No
+   38  G88P_RP         Numeric                 5      1                      No
+   39  G88P_I1P        Numeric                 5      1                      No
+   40  G88P_I2P        Numeric                 5      1                      No
+   41  G88P_SP         Numeric                 5      1                      No
+   42  G88P_WF         Character               1                             No
+   43  G88P_PV         Numeric                 9                             No
+   44  G88P_PP         Numeric                 5      1                      No
+   45  G88P_OV         Numeric                 9                             No
+   46  G88P_OP         Numeric                 5      1                      No
+   47  G88P_M1V        Numeric                 9                             No
+   48  G88P_M2V        Numeric                 9                             No
+   49  G88P_M3V        Numeric                 9                             No
+   50  G88P_M4V        Numeric                 9                             No
+   51  G88P_M5V        Numeric                 9                             No
+   52  POP_FIELDS      Character               1                             No
+   53  POP_1984        Numeric                 9                             No
+   54  VAP_1984        Numeric                 9                             No
+   55  POP_1988        Numeric                 9                             No
+   56  VAP_1988        Numeric                 9                             No
+   57  POPM_1984       Character               1                             No
+   58  VAPM_1984       Character               1                             No
+   59  POPM_1988       Character               1                             No
+   60  VAPM_1988       Character               1                             No
+   61  G84P_TAPV       Numeric                 5      1                      No
+   62  G88P_TAPV       Numeric                 5      1                      No
+   63  G84P_TAPP       Numeric                 5      1                      No
+   64  G88P_TAPP       Numeric                 5      1                      No
+   65  FF              Character               1                             No
+   66  VERSION         Character               5                             No
+** Total **                                  424

@@ -1,0 +1,73 @@
+
+Structure for table:          D:\POLIDISK\ERB0004.DBF
+Number of data records:       3165    
+Date of last update:          07/07/09
+Code Page:                    1252    
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  GL              Character               1                             No
+    2  ST              Numeric                 2                             No
+    3  CY              Numeric                 3                             No
+    4  CYKEY           Character               5            Asc   Machine    No
+    5  STA             Character               2                             No
+    6  CYABB           Character               5                             No
+    7  CNAME           Character              24                             No
+    8  G00P_YEAR       Numeric                 4                             No
+    9  G00P_DV         Numeric                 9                             No
+   10  G00P_RV         Numeric                 9                             No
+   11  G00P_I1V        Numeric                 9                             No
+   12  G00P_I2V        Numeric                 9                             No
+   13  G00P_SV         Numeric                 9                             No
+   14  G00P_TV         Numeric                 9                             No
+   15  G00P_DP         Numeric                 5      1                      No
+   16  G00P_RP         Numeric                 5      1                      No
+   17  G00P_I1P        Numeric                 5      1                      No
+   18  G00P_I2P        Numeric                 5      1                      No
+   19  G00P_SP         Numeric                 5      1                      No
+   20  G00P_WF         Character               1                             No
+   21  G00P_PV         Numeric                 9                             No
+   22  G00P_PP         Numeric                 5      1                      No
+   23  G00P_OV         Numeric                 9                             No
+   24  G00P_OP         Numeric                 5      1                      No
+   25  G00P_M1V        Numeric                 9                             No
+   26  G00P_M2V        Numeric                 9                             No
+   27  G00P_M3V        Numeric                 9                             No
+   28  G00P_M4V        Numeric                 9                             No
+   29  G00P_M5V        Numeric                 9                             No
+   30  G04P_YEAR       Numeric                 4                             No
+   31  G04P_DV         Numeric                 9                             No
+   32  G04P_RV         Numeric                 9                             No
+   33  G04P_I1V        Numeric                 9                             No
+   34  G04P_I2V        Numeric                 9                             No
+   35  G04P_SV         Numeric                 9                             No
+   36  G04P_TV         Numeric                 9                             No
+   37  G04P_DP         Numeric                 5      1                      No
+   38  G04P_RP         Numeric                 5      1                      No
+   39  G04P_I1P        Numeric                 5      1                      No
+   40  G04P_I2P        Numeric                 5      1                      No
+   41  G04P_SP         Numeric                 5      1                      No
+   42  G04P_WF         Character               1                             No
+   43  G04P_PV         Numeric                 9                             No
+   44  G04P_PP         Numeric                 5      1                      No
+   45  G04P_OV         Numeric                 9                             No
+   46  G04P_OP         Numeric                 5      1                      No
+   47  G04P_M1V        Numeric                 9                             No
+   48  G04P_M2V        Numeric                 9                             No
+   49  G04P_M3V        Numeric                 9                             No
+   50  G04P_M4V        Numeric                 9                             No
+   51  G04P_M5V        Numeric                 9                             No
+   52  POP_FIELDS      Character               1                             No
+   53  POP_2000        Numeric                 9                             No
+   54  VAP_2000        Numeric                 9                             No
+   55  POP_2004        Numeric                 9                             No
+   56  VAP_2004        Numeric                 9                             No
+   57  POPM_2000       Character               1                             No
+   58  VAPM_2000       Character               1                             No
+   59  POPM_2004       Character               1                             No
+   60  VAPM_2004       Character               1                             No
+   61  G00P_TAPV       Numeric                 5      1                      No
+   62  G04P_TAPV       Numeric                 5      1                      No
+   63  G00P_TAPP       Numeric                 5      1                      No
+   64  G04P_TAPP       Numeric                 5      1                      No
+   65  FF              Character               1                             No
+   66  VERSION         Character               5                             No
+** Total **                                  424
